@@ -1,0 +1,32 @@
+:root {
+  --background: #ffffff;
+  --paper: #fafafa;
+
+  --ink: #111111;
+  --text-soft: #4a4a4a;
+
+  --pink: #f3b6c8;
+  --pink-light: #fde8ee;
+  --pink-dark: #d98aa3;
+
+  --line: rgba(17, 17, 17, 0.12);
+
+  --radius-lg: 28px;
+  --radius-md: 18px;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+html,
+body {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: 'Plus Jakarta Sans', sans-serif;
+  background: var(--cream-light);
+  color: var(--ink);
+}
