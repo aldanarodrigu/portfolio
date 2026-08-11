@@ -1,26 +1,26 @@
 <script setup lang="ts">
-//
+const cvUrl = `${import.meta.env.BASE_URL}Aldana_Rodriguez_CV.pdf`
 </script>
 
 <template>
-  <nav>
-    <span class="nav-tag">ALDANA RODRIGUEZ</span>
+<nav>
+<span class="nav-tag">ALDANA RODRIGUEZ</span>
 
-    <div class="nav-links">
-      <a href="#about">Sobre mí</a>
-      <a href="#stack">Stack</a>
-      <a href="#proyectos">Proyectos</a>
-      <a href="#contacto">Contacto</a>
-    </div>
+<div class="nav-links">
+<a href="#about">Sobre mí</a>
+<a href="#stack">Stack</a>
+<a href="#proyectos">Proyectos</a>
+<a href="#contacto">Contacto</a>
+</div>
 
-    <a
-      :href="`${import.meta.env.BASE_URL}Aldana_Rodriguez_CV.pdf`"
-      download="Aldana_Rodriguez_CV.pdf"
-      class="nav-cta"
-    >
+
+      :href="cvUrl"
+download="Aldana_Rodriguez_CV.pdf"
+class="nav-cta"
+>
       Descargar CV
-    </a>
-  </nav>
+</a>
+</nav>
 </template>
 
 <style scoped>
