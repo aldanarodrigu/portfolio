@@ -13,7 +13,11 @@
       <a href="#contacto">Contacto</a>
     </div>
 
-    <a href="/Aldana_Rodriguez_CV.pdf" download="Aldana_Rodriguez_CV.pdf" class="nav-cta">
+    <a
+      :href="`${import.meta.env.BASE_URL}Aldana_Rodriguez_CV.pdf`"
+      download="Aldana_Rodriguez_CV.pdf"
+      class="nav-cta"
+    >
       Descargar CV
     </a>
   </nav>
